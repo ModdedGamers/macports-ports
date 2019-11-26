@@ -3,7 +3,7 @@ PortGroup           github 1.0
 PortGroup           compiler_blacklist_versions 1.0
 
 set vim_version     8.1
-set snapshot        155
+set snapshot        161
 github.setup        macvim-dev macvim ${snapshot} snapshot-
 name                MacVim
 version             ${vim_version}.snapshot${snapshot}
